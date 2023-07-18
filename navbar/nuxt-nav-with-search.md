@@ -21,61 +21,63 @@
                         </a>
                     </a>
                 </div>
+
                 <div class="hidden pl-14 md:block">
                     <!-- The navigation links section of the navbar -->
                     <nav aria-label="Global">
                         <ul class="flex items-center gap-6 pl-10 text-sm">
                             <li>
-                                <a
+                                <NuxtLink
                                     class="text-gray-500 transition hover:text-gray-500/75"
-                                    href="/"
+                                    to="/"
                                 >
                                     About
-                                </a>
+                                </NuxtLink>
                             </li>
+
                             <li>
-                                <a
+                                <NuxtLink
                                     class="text-gray-500 transition hover:text-gray-500/75"
-                                    href="/"
+                                    to="/"
                                 >
                                     Careers
-                                </a>
+                                </NuxtLink>
                             </li>
 
                             <li>
-                                <a
+                                <NuxtLink
                                     class="text-gray-500 transition hover:text-gray-500/75"
-                                    href="/"
+                                    to="/"
                                 >
                                     History
-                                </a>
+                                </NuxtLink>
                             </li>
 
                             <li>
-                                <a
+                                <NuxtLink
                                     class="text-gray-500 transition hover:text-gray-500/75"
-                                    href="/"
+                                    to="/"
                                 >
                                     Services
-                                </a>
+                                </NuxtLink>
                             </li>
 
                             <li>
-                                <a
+                                <NuxtLink
                                     class="text-gray-500 transition hover:text-gray-500/75"
-                                    href="/"
+                                    to="/"
                                 >
                                     Projects
-                                </a>
+                                </NuxtLink>
                             </li>
 
                             <li>
-                                <a
+                                <NuxtLink
                                     class="text-gray-500 transition hover:text-gray-500/75"
-                                    href="/"
+                                    to="/"
                                 >
                                     Blog
-                                </a>
+                                </NuxtLink>
                             </li>
                         </ul>
                     </nav>
